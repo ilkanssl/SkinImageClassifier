@@ -81,7 +81,7 @@ def create_model():
 model = create_model()
 model.summary()
 
-checkpoint_path = "model2save.ckpt"
+checkpoint_path = "Weight adresininzi uzantısı ile birlikte yazın"
 model.load_weights(checkpoint_path)
 
 loss,acc=model.evaluate_generator(test_data_flow)
