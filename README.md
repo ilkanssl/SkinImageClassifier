@@ -47,4 +47,20 @@ base
 1. Resimleri %90 train %10 validation olmak üzere 2 parçaya ayırır.
 2. Sonra tüm resimleri HAMdataset.csv dosyasındaki kategorisine göre ilgili klasöre taşır.
 
-## 5-PreProcessor.py
+## 5-model1.py
+Keras Sequential Model (4 Convolutional Layer, 1 Dense Layer). Training sonucunda sonuçları plot eder.
+
+## 6-ImageAugmentation.py
+Her klasör faklı sayıda resimler içermekte bu nedenle ilk modelimiz training de iyi sonuç verse de test de kötü sonuç veriyor. Bu nedenle orjinal resimlere rastgele rotation, zoom, flip, shift... işlemleri uygulayarak yeni resimler oluşturuyoruz.
+
+## 7-ImageAugmentationVal.py
+Aynı işlemleri validation klasörü için yapıyoruz.
+
+## 8-Count Images.py
+Klasörlerde anlık kaç resim olduğunu yazdırır.
+
+## 9-model2.py
+model1'e çok benzer fakat trainingte çok daha fazla resim işleyecek ve daha doğru sonuçlar verecek.
+
+## 10-test.py
+modelleri sonradan test ettirmek için oluşturduğum kod. "test2" adında bir klasör oluşturup, içine alt klasörlerini oluşturdum ve her bir alt klasöre 25'er tane resim koydum. 
