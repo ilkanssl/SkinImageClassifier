@@ -1,5 +1,7 @@
+### Başlamadan önce
+Bu proje Deep Learning Türkiye'nin Proje Odaklı Derin Öğrenme Eğitimi'ne başvuru için yükledim. Geçmişte yaptığım projelerden biriydi. Kendi bilgisayarımda tekrardan çalıştırdım. Takıldığınız yer olursa bana ilkanerensuslu@gmail.com adresinden yazabilirsiniz.  Github'a yüklediğim ilk poje olduğu için eksikler olabilir. IDE olarak PyCharm kullandım.
+
 # SkinImageClassifier
-Bu proje Deep Learning Türkiye'nin Proje Odaklı Derin Öğrenme Eğitimi'ne başvuru için yükledim. Github'a yüklediğim ilk poje. IDE olarak PyCharm kullandım.
 
 ## 1-Gerekli Kütüphaneler
 * tensorFlow
